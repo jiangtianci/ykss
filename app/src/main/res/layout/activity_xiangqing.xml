@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.jiangtianci20171221.XiangqingActivity">
+
+    <TextView
+        android:id="@+id/spxq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="商品详情"
+        android:textSize="25sp" />
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/spxq"></com.youth.banner.Banner>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banner"
+        android:text="【现货新品抢购】全面屏2.0震撼来袭，骁龙835处理器，四曲面陶瓷机"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="￥1523"
+        android:textColor="#EC8438"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/jiaru"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="155dp"
+            android:background="#FEC400"
+            android:gravity="center"
+            android:text="加入购物车"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/goumai"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="#FC6B04"
+            android:gravity="center"
+            android:text="立即购买"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+</RelativeLayout>
